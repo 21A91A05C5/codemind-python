@@ -1,6 +1,7 @@
 str=input()
-wrd=1
+t=1
 for i in str:
-    if i==' ':
-        wrd+=1
-print(wrd)        
+    if i==' ' or i=='
+' or i=='	':
+        t+=1
+print(t)        

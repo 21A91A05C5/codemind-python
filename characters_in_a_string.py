@@ -1,5 +1,7 @@
 str=input()
-c=0
+t=0
 for i in str:
-    c+=1
-print(c)    
+   if i!=' ' or  i!="
+":
+       t+=1
+print(t)       

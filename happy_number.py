@@ -7,7 +7,7 @@ while(sum!=1 and sum!=4):
         sum=sum+r*r
         n=n//10
     n=sum
-if(sum==1):
+if sum==1:
     print("True")
 else:
     print("False")

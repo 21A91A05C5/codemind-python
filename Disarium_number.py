@@ -12,7 +12,7 @@ while(temp):
     sum=sum+pow(r,c)
     temp=temp//10
     c-=1
-if(sum==n):
+if sum==n:
     print("True")
 else:
     print("False")

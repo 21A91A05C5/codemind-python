@@ -8,3 +8,4 @@ if(len(b)==0):
      print(0)
 else:
     print(*b)
+        

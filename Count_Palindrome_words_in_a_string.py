@@ -3,6 +3,6 @@ c=0
 for i in s:
     i=i.lower()
     res=i[::-1]
-    if res==i:
+    if res.lower()==i:
         c+=1
-print(c)    
+print(c)        

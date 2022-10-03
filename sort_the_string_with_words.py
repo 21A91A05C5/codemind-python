@@ -1,0 +1,5 @@
+string=input()
+words=string.split()
+string=list(reversed(words))
+string.sort()
+print(*string)

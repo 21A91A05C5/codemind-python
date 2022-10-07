@@ -1,7 +1,8 @@
-s=input()
-l=s.split(" ")
-for i in range(len(l)):
-    if(i%2==0):
-        print(l[i][::-1],end=" ")
+str=input().split()
+a=[]
+for i in range(len(str)):
+    if((i)%2==0):
+        a.append(str[i][::-1])
     else:
-        print(l[i],end=" ")
+        a.append(str[i])
+print(*a)

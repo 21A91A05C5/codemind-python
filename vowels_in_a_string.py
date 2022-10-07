@@ -1,12 +1,10 @@
-str=input()
-s=[]
-s1=input()
-c=0
-for i in range(len(str)):
-    if str[i]==s1:
+a=input()
+a.lower()
+s=input()
+for i in range(len(a)):
+    if a[i]==s:
         print("True")
         print(i)
         break
 else:
     print("False")
-             

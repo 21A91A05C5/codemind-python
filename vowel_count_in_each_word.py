@@ -1,10 +1,8 @@
-a=input()
-b=list(a.split( ))
-l=0
-for i in b:
+s=list(map(str,input().split()))
+c=0
+for i in s:
     c=0
     for j in i:
-        if j in 'aeiou':
+        if j in "aeiou":
             c+=1
-   
-    print(c,end=' ')
+    print(c,end=' ')            

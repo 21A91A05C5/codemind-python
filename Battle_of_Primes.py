@@ -12,4 +12,3 @@ for j in range(1,10):
      if(prime(res)):
          print(j)
          break
-    

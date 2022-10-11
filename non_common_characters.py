@@ -1,3 +1,5 @@
+
+
 s1=input().lower()
 s2=input().lower()
 c=0

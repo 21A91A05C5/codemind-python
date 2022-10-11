@@ -1,5 +1,10 @@
 z=input().lower()
-l=sorted(set(z))
-for i in l:
+s=set(z)
+c=0
+k=[]
+for i in s:
     if i>='a' and i<='z':
-        print(i,end='')
+       k.append(i)
+k.sort()       
+print(''.join(k))
+       

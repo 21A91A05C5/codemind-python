@@ -1,15 +1,17 @@
-n,m=map(int,input().split())
-a=list(map(int,input().split()))
-b=list(map(int,input().split()))
+a,b=map(int,input().split())
+l1=list(map(int,input().split()))
+l2=list(map(int,input().split()))
 s=[]
 c=0
-for i in a:
-    if i not in b and i not in s:
+for i in l1:
+    if i not in l2:
         s.append(i)
+    if s.count(i)==1:
         c+=1
-for i in b:
-    if i not in a and i not in s:
-        s.append(i) 
+#print(c)    
+for i in l2:
+    if i not in l1:
+        s.append(i)
+    if s.count(i)    ==1:
         c+=1
 print(c)        
-        

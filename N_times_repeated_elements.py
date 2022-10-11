@@ -10,4 +10,3 @@ for i in l:
         print(i,end=' ')
 if b==[]:
     print("-1")
-        

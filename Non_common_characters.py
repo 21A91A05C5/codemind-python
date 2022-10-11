@@ -13,4 +13,3 @@ for i in sorted(set(k))        :
     if i!=' ':
         c+=1
 print(c)        
-        

@@ -1,6 +1,6 @@
 q=input()
 n=q.split()
-#print👎
+#print
 p=[]
 m=""
 for i in n:

@@ -1,6 +1,5 @@
-q=input()
-n=q.split()
-#print
+a=input()
+n=a.split()
 p=[]
 m=""
 for i in n:
@@ -9,7 +8,6 @@ for i in n:
         if j.isalpha():
             k.append(j)
     k=sorted(k)
-    #print(k)
     h=0
     m=""
     for o in range(len(i)):
@@ -20,3 +18,4 @@ for i in n:
             m=m+i[o]
     p.append(m)
 print(*p)
+

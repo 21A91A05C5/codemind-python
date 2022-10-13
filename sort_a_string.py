@@ -1,7 +1,7 @@
-a=input().split()
+p=input().split()
 b=[]
 c=[]
-for i in a:
+for i in p:
     for j in i:
         if j.isalpha():
             b.append(j)
@@ -9,7 +9,7 @@ for i in a:
             c.append(j)
 b.sort()
 k,l=0,0
-for i in a:
+for i in p:
     for j in range(len(i)):
         if i[j] in b:
             print(b[k],end='')

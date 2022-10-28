@@ -1,12 +1,12 @@
-str=input()
+s=input()
+k=0
 c=0
-for i in str:
+for i in s:
+    i.lower()
     if i.isalpha():
-        continue
-    elif i.isdigit():
-        continue
-    elif i==' ':
-        continue
+        k+=1
+    elif i==" "    :
+        k+=1
     else:
         c+=1
 print(c)        

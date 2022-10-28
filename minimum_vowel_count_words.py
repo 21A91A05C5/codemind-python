@@ -9,5 +9,3 @@ for i in s:
             c+=1
     d.append(c)
 print(d.count(min(d))) 
-        
-

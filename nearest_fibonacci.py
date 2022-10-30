@@ -8,7 +8,6 @@ while(True):
        break
     a=b
     b=c
-#print(h1,h2)
 x1=abs(h1-n)
 x2=abs(h2-n)
 if(x1==x2):
@@ -17,4 +16,3 @@ elif(x1>x2):
    print(h2)
 else:
    print(h1)
-   
